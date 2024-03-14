@@ -2,5 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/light/home-corporate": "pages/light/home-corporate.js"
+  "/light/home-creative-agency": "pages/light/home-creative-agency.js"
 }

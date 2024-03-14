@@ -2,17 +2,17 @@
 
 // configure
 $from = 'Demo contact form <demo@domain.com>';
-$sendTo = 'Test contact form <hisham.a.mohamed007@gmail.com>'; // Add Your Email
+$sendTo = 'Test contact form <agutierrezwong@gmail.com>'; // Add Your Email
 $subject = 'New message from contact form';
-$fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$fields = array('name' => 'Nombre', 'subject' => 'Tema', 'email' => 'Email', 'message' => 'Mensaje'); // array variable name => Text to appear in the email
+$okMessage = 'Recibimos tu mensaje con éxito. Esperamos verlo pronto!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
 // let's do the sending
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "Tienes un nuevo mensaje de\n=============================\n";
 
     foreach ($_POST as $key => $value) {
 

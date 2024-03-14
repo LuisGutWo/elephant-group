@@ -2,11 +2,11 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="es">
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="keywords" content="React Nextjs Template Geekfolio Multi-Purpose themeforest" />
-        <meta name="description" content="Geekfolio - Multi-Purpose React.js Next.js Template" />
+        <meta name="keywords" content="React Elephantgroup page" />
+        <meta name="description" content="React Elephantgroup page" />
         <meta name="author" content="" />
         {/* ------ Favicon ------ */}
         <link rel="shortcut icon" href="/dark/assets/imgs/favicon.ico" />

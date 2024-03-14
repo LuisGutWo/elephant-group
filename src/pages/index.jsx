@@ -23,7 +23,7 @@ function LandingPreview() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Preview</title>
+        <title>Elephant Group</title>
       </Head>
 
       <Navbar />

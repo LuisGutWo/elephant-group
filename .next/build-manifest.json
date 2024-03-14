@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/light/home-corporate": [
+    "/light/home-creative-agency": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/light/home-corporate.js"
+      "static/chunks/pages/light/home-creative-agency.js"
     ]
   },
   "ampFirstPages": []
