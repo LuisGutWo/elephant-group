@@ -1,14 +1,5 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: Geekfolio
-    Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: UI-ThemeZ
-    Author URI: http://themeforest.net/user/UI-ThemeZ
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
 /* Variables
 -----------------------------------------------------------------*/
 /* Typography
@@ -631,7 +622,7 @@ img {
   pointer-events: none;
   position: fixed;
   padding: 0.3rem;
-  background-color: #fff;
+  background-color: #ffc7a6;
   border-radius: 50%;
   mix-blend-mode: difference;
   -webkit-transition: opacity 0.4s ease, -webkit-transform 0.3s ease;

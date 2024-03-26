@@ -7,7 +7,9 @@
       "default",
       {
         "ignore": [
-          "-ms-filter"
+          "-ms-filter",
+          "backdrop-filter",
+          "min-height: auto"
         ]
       }
     ]

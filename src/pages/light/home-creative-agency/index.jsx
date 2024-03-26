@@ -27,7 +27,7 @@ function HomeCreativeAgencyLight() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Creative Agency</title>
+        <title>Elephant Group</title>
       </Head>
 
       <Loader />

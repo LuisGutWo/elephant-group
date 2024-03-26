@@ -1,24 +1,77 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from "react";
+//= Modules
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay, Pagination, Parallax } from "swiper";
 //= Scripts
-import loadBackgroudImages from '@/common/loadBackgroudImages';
+import loadBackgroudImages from "@/common/loadBackgroudImages";
+//= Data
+import data from "@/data/Architecture/header.json";
 
-function Header({ lightMode }) {
+const swiperOptions = {
+  modules: [Navigation, Autoplay, Pagination, Parallax],
+  speed: 1500,
+  autoplay: {
+    delay: 5000,
+  },
+  parallax: true,
+  loop: true,
+  onSwiper: function (swiper) {
+    for (var i = 0; i < swiper.slides.length; i++) {
+      swiper.slides[i]
+        .querySelector(".bg-img")
+        .setAttribute("data-swiper-parallax", 0.75 * swiper.width);
+    }
+  },
+  onResize: function (swiper) {
+    swiper.update();
+  },
+  pagination: {
+    el: ".slider-prlx .swiper-pagination",
+    type: "fraction",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".slider-prlx .next-ctrl",
+    prevEl: ".slider-prlx .prev-ctrl",
+  },
+};
+function Header() {
+  const [loadSwiper, setLoadSwiper] = useState(false);
+
   useEffect(() => {
-    loadBackgroudImages();
+    setLoadSwiper(true);
   }, []);
 
+  useEffect(() => {
+    if (loadSwiper) loadBackgroudImages();
+  }, [loadSwiper]);
+
   return (
-    <header className="header-creative">
-      <div className="container ontop">
-        <div className="row justify-content-center full-height">
-            <div className="img parallax" data-speed="0.01">
-              <img src="/dark/assets/imgs/header/b4_Mesa-de-trabajo-1-copia-3.png" alt="" />
-            </div>
+    <header className="slider arch-slider slider-prlx">
+      {loadSwiper && (
+        <Swiper {...swiperOptions} className="swiper-container parallax-slider">
+          {data.map((item) => (
+            <SwiperSlide key={item.id}>
+              <div
+                className="bg-img valign "
+                data-background={item.background}
+              ></div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      )}
+      <div className="setting">
+        <div className="controls">
+          <div className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
+            <i className="ion-chevron-right"></i>
+          </div>
+          <div className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
+            <i className="ion-chevron-left"></i>
+          </div>
         </div>
       </div>
-      <div className="bg-pattern bg-img" data-background={`/${lightMode ? 'light' : 'dark'}/assets/imgs/patterns/graph.png`}></div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

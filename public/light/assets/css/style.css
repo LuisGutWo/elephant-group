@@ -1,18 +1,6 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: Geekfolio
-    Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: UI-ThemeZ
-    Author URI: http://themeforest.net/user/UI-ThemeZ
-    Version: 1.0
 
------------------------------------------------------------------------------------*/
-/* Variables
------------------------------------------------------------------*/
-/* Typography
------------------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +12,7 @@
 
 body {
   color: #1d1d1d;
-  background-color: #dcdcdc;
+  background-color: #f3f3f3;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
   font-family: 'Sora', sans-serif;
@@ -258,11 +246,11 @@ figure {
 }
 
 .main-color2 {
-  color: #f08f74 !important;
+  color: #f09b2ce8 !important;
 }
 
 .main-colorbg2 {
-  background-color: #f08f74;
+  background-color: #f09b2ce8;
 }
 
 .main-color3 {
@@ -282,7 +270,7 @@ figure {
 }
 
 .main-bg {
-  background-color: #f1f3f5;
+  background-color: #f4f4f4;
 }
 
 .sub-bg {
@@ -290,7 +278,7 @@ figure {
 }
 
 .bg-gray1 {
-  background: #EFF2F5;
+  background: #f4f4f5;
 }
 
 .text-dark {
@@ -503,6 +491,7 @@ img {
 .circle-button {
   position: relative;
   display: inline-block;
+  color: #181314;
 }
 
 .circle-button.in-bord:after {
@@ -512,7 +501,7 @@ img {
   left: 55px;
   right: 55px;
   bottom: 55px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(8, 8, 8, 0.5);
   border-radius: 50%;
 }
 
@@ -523,13 +512,14 @@ img {
   left: 15px;
   right: 15px;
   bottom: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(12, 12, 12, 0.5);
   border-radius: 50%;
 }
 
 .circle-button .rotate-circle svg {
   width: 210px;
   fill: #1d1d1d;
+  color: #181314;
 }
 
 .circle-button .arrow {
@@ -1387,6 +1377,8 @@ img.left {
 .bg-img {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .bg-center {
@@ -3053,7 +3045,7 @@ body.loaded {
 }
 
 .navbar.main-bg {
-  background: #f1f3f5;
+  background: #f8f8f8;
   border-color: rgba(0, 0, 0, 0.05);
 }
 
@@ -7581,7 +7573,7 @@ header.in-box {
   fill: #fff;
 }
 
-.header-main .bg-pattern {
+/* .header-main .bg-pattern {
   position: absolute;
   top: 0;
   left: 0;
@@ -7590,7 +7582,7 @@ header.in-box {
   background-size: 70px;
   background-repeat: repeat;
   pointer-events: none;
-}
+} */
 
 .header-main-crev {
   position: relative;
@@ -7620,29 +7612,18 @@ header.in-box {
   position: relative;
 }
 
-.header-creative .img {
-  position: relative;
-}
-
-.header-creative .img .img-assets1 {
-  position: absolute;
-  top: -180px;
-  left: 0;
-  width: 200px;
-}
-
 .header-creative .svg-animation {
   height: 50px;
   width: 50px;
 }
 
 .header-creative .bg-pattern {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-position: center center;
+  background-position: center;
   pointer-events: none;
 }
 
@@ -7748,7 +7729,7 @@ header.in-box {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 80px 0;
 }
 
@@ -7758,7 +7739,7 @@ header.in-box {
   right: 0;
   bottom: 0;
   left: 0;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .slider .parallax-slider .swiper-slide-active .caption .thin,
