@@ -7,7 +7,7 @@ function SectionImage() {
   }, []);
 
   return (
-    <div className="back-image bg-img parallaxie" data-background="/dark/assets/imgs/background/17.jpg" data-overlay-dark="5" />
+    <div className="back-image bg-img parallaxie" data-background="/dark/assets/imgs/background/17.png" data-overlay-dark="0" />
   )
 }
 
