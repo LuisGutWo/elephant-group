@@ -10,12 +10,9 @@ import Header from "@/components/CreativeAgency/Header";
 import Marq from "@/components/CreativeAgency/Marq";
 import Intro from "@/components/CreativeAgency/Intro";
 import SectionImage from "@/components/CreativeAgency/SectionImage";
+import Clients from '@/components/MarketingAgency/Clients';
 import Services from "@/components/CreativeAgency/Services";
 import Portfolio from "@/components/CreativeAgency/Portfolio";
-import Testimonials from "@/components/CreativeAgency/Testimonials";
-import Team from "@/components/CreativeAgency/Team";
-import HzScroll from "@/components/CreativeAgency/HorizontalScroll";
-import Blog from "@/components/CreativeAgency/Blog";
 import Footer from "@/components/CreativeAgency/Footer";
 
 function HomeCreativeAgencyLight() {
@@ -36,11 +33,10 @@ function HomeCreativeAgencyLight() {
         <Header lightMode />
         <Marq />
         <Intro />
+        <Clients lightMode />
         <SectionImage />
         <Services lightMode />
         <Portfolio />
-        <HzScroll />
-        <Blog />
       </main>
       <Footer lightMode />
     </>

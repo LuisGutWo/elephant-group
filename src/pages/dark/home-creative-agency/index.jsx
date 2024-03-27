@@ -10,9 +10,9 @@ import Header from '@/components/CreativeAgency/Header';
 import Marq from '@/components/CreativeAgency/Marq';
 import Intro from '@/components/CreativeAgency/Intro';
 import SectionImage from '@/components/CreativeAgency/SectionImage';
+import Clients from '@/components/MarketingAgency/Clients';
 import Services from '@/components/CreativeAgency/Services';
 import Portfolio from '@/components/CreativeAgency/Portfolio';
-import HzScroll from '@/components/CreativeAgency/HorizontalScroll';
 import Footer from '@/components/CreativeAgency/Footer';
 
 function HomeCreativeAgency() {
@@ -33,10 +33,10 @@ function HomeCreativeAgency() {
         <Header />
         <Marq />
         <Intro />
+        <Clients />
         <SectionImage />
         <Services />
         <Portfolio />
-        <HzScroll />
       </main>
       <Footer />
     </>
