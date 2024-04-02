@@ -491,7 +491,7 @@ img {
 .circle-button {
   position: relative;
   display: inline-block;
-  color: #181314;
+  color: #181314 !important;
 }
 
 .circle-button.in-bord:after {
@@ -501,7 +501,7 @@ img {
   left: 55px;
   right: 55px;
   bottom: 55px;
-  border: 1px solid rgba(8, 8, 8, 0.5);
+  border: 1px solid rgba(8, 8, 8, 0.5) !important;
   border-radius: 50%;
 }
 
@@ -512,14 +512,14 @@ img {
   left: 15px;
   right: 15px;
   bottom: 15px;
-  border: 1px solid rgba(12, 12, 12, 0.5);
+  border: 1px solid rgba(12, 12, 12, 0.5) !important;
   border-radius: 50%;
 }
 
 .circle-button .rotate-circle svg {
   width: 210px;
-  fill: #1d1d1d;
-  color: #181314;
+  fill: #141414 !important;
+  color: #100f0f !important;
 }
 
 .circle-button .arrow {

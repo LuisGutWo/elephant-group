@@ -13,6 +13,7 @@ import SectionImage from "@/components/CreativeAgency/SectionImage";
 import Clients from '@/components/MarketingAgency/Clients';
 import Services from "@/components/CreativeAgency/Services";
 import Portfolio from "@/components/CreativeAgency/Portfolio";
+import CallToAction from '@/components/Startup/CallToAction';
 import Footer from "@/components/CreativeAgency/Footer";
 
 function HomeCreativeAgencyLight() {
@@ -33,10 +34,11 @@ function HomeCreativeAgencyLight() {
         <Header lightMode />
         <Marq />
         <Intro />
+        <Services lightMode />
         <Clients lightMode />
         <SectionImage />
-        <Services lightMode />
         <Portfolio />
+        <CallToAction />
       </main>
       <Footer lightMode />
     </>

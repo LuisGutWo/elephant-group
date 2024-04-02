@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 //= Data
-import data from '@/data/CreativeAgency/portfolio.json';
+import data from "@/data/CreativeAgency/portfolio.json";
 
 function Portfolio() {
   return (
@@ -10,13 +10,15 @@ function Portfolio() {
           <div className="row">
             <div className="col-lg-8">
               <div className="position-re">
-                <h6 className="dot-titl mb-10">Selected Projects</h6>
-                <h2 className="fz-70 fw-700">Featured Works</h2>
+                <h6 className="dot-titl mb-10">Proyectos Seleccionados</h6>
+                <h2 className="fz-70 fw-700">Nuestros Trabajos</h2>
               </div>
             </div>
             <div className="col-lg-4 d-flex align-items-center">
               <div className="text">
-                <p>Nemo enim ipsam voluptatem quia voluptas sit odit aut fugit, sed quia.</p>
+                <p>
+                  Estos trabajos son algunos de los más destacados, conócenos.
+                </p>
               </div>
             </div>
           </div>
@@ -31,7 +33,6 @@ function Portfolio() {
               </div>
               <div className="cont mt-30 d-flex">
                 <div>
-                  <h6 className="line-height-1">From our gallery</h6>
                   <p>{data[0].type}</p>
                 </div>
                 <div className="ml-auto">
@@ -51,7 +52,6 @@ function Portfolio() {
                   </div>
                   <div className="cont mt-30 d-flex">
                     <div>
-                      <h6 className="line-height-1">From our gallery</h6>
                       <p>{data[1].type}</p>
                     </div>
                     <div className="ml-auto">
@@ -73,7 +73,6 @@ function Portfolio() {
                   </div>
                   <div className="cont mt-30 d-flex">
                     <div>
-                      <h6 className="line-height-1">From our gallery</h6>
                       <p>{data[2].type}</p>
                     </div>
                     <div className="ml-auto">
@@ -95,8 +94,49 @@ function Portfolio() {
                   </div>
                   <div className="cont mt-30 d-flex">
                     <div>
-                      <h6 className="line-height-1">From our gallery</h6>
                       <p>{data[3].type}</p>
+                    </div>
+                    <div className="ml-auto">
+                      <p className="fz-14">© {data[3].year}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="item mt-80">
+              <div className="row justify-content-center">
+                <div className="col-lg-9">
+                  <div className="o-hidden">
+                    <div className="img imago wow">
+                      <img src={data[4].image} alt="" />
+                    </div>
+                  </div>
+                  <div className="cont mt-30 d-flex">
+                    <div>
+                      <p>{data[4].type}</p>
+                    </div>
+                    <div className="ml-auto">
+                      <p className="fz-14">© {data[3].year}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="item mt-80">
+              <div className="row justify-content-center">
+                <div className="col-lg-9">
+                  <div className="o-hidden">
+                    <div className="img imago wow">
+                      <img src={data[5].image} alt="" />
+                    </div>
+                  </div>
+                  <div className="cont mt-30 d-flex">
+                    <div>
+                      <p>{data[5].type}</p>
                     </div>
                     <div className="ml-auto">
                       <p className="fz-14">© {data[3].year}</p>
@@ -109,7 +149,7 @@ function Portfolio() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Portfolio
+export default Portfolio;

@@ -25,11 +25,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/dark/home-creative-agency": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dark/home-creative-agency.js"
-    ],
     "/light/home-creative-agency": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

@@ -2,25 +2,19 @@
   {
     "id": 1,
     "image": "/assets/imgs/serv-icons/0.png",
-    "title": "Marketing Strategy",
-    "text": "Praesent faucibus nisl sit amet nulla pretium a sed purus."
+    "title": "PUBLICIDAD",
+    "text": "Asesoramos el desarrollo de tus ideas y tu imagen corporativa correctamente en el mundo empresarial actual."
   },
   {
     "id": 2,
     "image": "/assets/imgs/serv-icons/1.png",
-    "title": "Product Design",
-    "text": "Praesent faucibus nisl sit amet nulla pretium a sed purus."
+    "title": "DISEÑO",
+    "text": "¿Necesitas un logotipo nuevo o una gráfica para tus redes sociales, etiquetas de productos o ilustraciones para tu marca."
   },
   {
     "id": 3,
     "image": "/assets/imgs/serv-icons/2.png",
-    "title": "Website Design",
-    "text": "Praesent faucibus nisl sit amet nulla pretium a sed purus."
-  },
-  {
-    "id": 4,
-    "image": "/assets/imgs/serv-icons/0.png",
-    "title": "Marketing Strategy",
-    "text": "Praesent faucibus nisl sit amet nulla pretium a sed purus."
+    "title": "IMPRENTA",
+    "text": "Diseñamos y también lo imprimimos; etiquetas, stickers, pendones, gigantografias, letreros y mas."
   }
 ]

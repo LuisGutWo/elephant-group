@@ -10,8 +10,8 @@ function Services({ lightMode }) {
         <div className="row">
           {
             data.map(item => (
-              <div className="item-bord col-lg-3 col-md-6" key={item.id}>
-                <div className="icon-img-70 mb-40">
+              <div className="d-flex flex-column align-items-center item-bord col-lg-4 col-md-8" key={item.id}>
+                <div className="icon-img-120 mb-40">
                   <img src={`/${lightMode ? 'light' : 'dark'}${item.image}`} alt="" />
                 </div>
                 <h6 className="mb-15">{item.title}</h6>
@@ -25,7 +25,7 @@ function Services({ lightMode }) {
                         fill="currentColor"></path>
                     </svg>
                   </span>
-                  <span className="fz-12 text-u ml-10">Read More</span>
+                  <span className="fz-12 text-u ml-10">Ver Mas</span>
                 </Link>
               </div>
             ))

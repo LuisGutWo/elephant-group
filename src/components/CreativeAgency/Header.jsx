@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination, Parallax } from "swiper";
 //= Scripts
 import loadBackgroudImages from "@/common/loadBackgroudImages";
-import StatementSplitter from "../Common/StatementSplitter";
 //= Data
 import data from "@/data/Architecture/header.json";
 
@@ -55,7 +54,7 @@ function Header() {
           {data.map((item) => (
             <SwiperSlide key={item.id}>
               <div
-                className="bg-img valign "
+                className="bg-img valign"
                 data-background={item.background}
               ></div>
               <div className="container">
@@ -65,17 +64,13 @@ function Header() {
                       <h5 className="main-colorbg inline">
                         <span>{item.number}</span>
                       </h5>
-                      <h1>
-                        <StatementSplitter statement={item.title} />
-                      </h1>
-                      <p>{item.text}</p>
                     </div>
                   </div>
-                  <div className="col-lg-3 offset-lg-1 valign">
+                  <div className="col-lg-3 offset-lg-1 valign" style={{ marginTop: "10rem" }}>
                     <div className="ml-auto explore">
                       <Link href="/dark/project-details1">
                         <div className="circle-button">
-                          <div className="rotate-circle fz-30 text-u">
+                          <div className="rotate-circle fz-30 text-dark">
                             <svg className="textcircle" viewBox="0 0 500 500">
                               <defs>
                                 <path

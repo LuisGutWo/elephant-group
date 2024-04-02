@@ -2,21 +2,28 @@
   {
     "id": 1,
     "number": "01",
-    "background": "/light/assets/imgs/header/banner-elephant-group.png",
+    "background": "/light/assets/imgs/header/main-banner-elephantgroup.png",
     "title": "Explore <BR> The Future",
     "text": "We developed strong relationships with contractors and specialist companies offering discounted prices."
   },
   {
     "id": 2,
     "number": "02",
-    "background": "/light/assets/imgs/header/banner-valpo-elephant-group.png",
+    "background": "/light/assets/imgs/header/main-banner-paint.png",
     "title": "Dustin <BR> Villa, Spain",
     "text": "We developed strong relationships with contractors and specialist companies offering discounted prices."
   },
   {
     "id": 3,
     "number": "03",
-    "background": "/light/assets/imgs/header/banner-elephant-group.png",
+    "background": "/light/assets/imgs/header/banner-2-aquarela.png",
+    "title": "Minimalest Architectures",
+    "text": "We developed strong relationships with contractors and specialist companies offering discounted prices."
+  },
+  {
+    "id": 4,
+    "number": "04",
+    "background": "/light/assets/imgs/header/main-banner-magenta.png",
     "title": "Minimalest Architectures",
     "text": "We developed strong relationships with contractors and specialist companies offering discounted prices."
   }
