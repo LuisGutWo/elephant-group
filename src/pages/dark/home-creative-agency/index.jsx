@@ -14,7 +14,7 @@ import Clients from '@/components/MarketingAgency/Clients';
 import Services from '@/components/CreativeAgency/Services';
 import Portfolio from '@/components/CreativeAgency/Portfolio';
 import CallToAction from '@/components/Startup/CallToAction';
-import Footer from '@/components/CreativeAgency/Footer';
+import Footer from '@/components/Startup/Footer';
 
 function HomeCreativeAgency() {
   useEffect(() => {

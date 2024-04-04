@@ -20,7 +20,7 @@ function PageContactLight() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Contact Us</title>
+        <title>Elephant Group - Contáctenos</title>
       </Head>
 
       <Loader />
