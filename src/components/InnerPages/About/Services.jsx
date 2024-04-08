@@ -2,7 +2,7 @@ import React from 'react';
 //= Components
 import StatementSplitter from '@/components/Common/StatementSplitter';
 //= Data
-import data from '@/data/InnerPages/About/services.json';
+import data from '@/data/CreativeAgency/services.json';
 
 function Services({ lightMode }) {
   return (
@@ -12,13 +12,13 @@ function Services({ lightMode }) {
           <div className="row">
             <div className="col-lg-8">
               <div className="position-re">
-                <h6 className="dot-titl-non colorbg-3 mb-10">Featured Services</h6>
-                <h2 className="fz-60 fw-700">Our Services</h2>
+                <h6 className="dot-titl-non colorbg-3 mb-10">Principales Servicios</h6>
+                <h2 className="fz-60 fw-700">Nuestros Servicios</h2>
               </div>
             </div>
             <div className="col-lg-4 d-flex align-items-center">
               <div className="text">
-                <p>Nemo enim ipsam voluptatem quia voluptas sit odit aut fugit, sed quia.</p>
+                <p>Estos son los tres servicios específicos relacionados con el area del Marketing y publicidad que ofrecemos.</p>
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@ function Services({ lightMode }) {
             data.map(item => (
               <div className="col-lg-4" key={item.id}>
                 <div className="serv-item md-mb50 radius-10">
-                  <div className="icon-img-60 mb-40">
+                  <div className="icon-img-120 mb-40">
                     <img src={`/${lightMode ? 'light' : 'dark'}/${item.image}`} alt="" />
                   </div>
                   <h5 className="mb-30 pb-30 bord-thin-bottom"><StatementSplitter statement={item.title} /></h5>

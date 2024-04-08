@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-//= Data
-import data from "@/data/app-data.json";
 
 function Footer({ lightMode, subBg }) {
   useEffect(() => {
@@ -29,41 +27,37 @@ function Footer({ lightMode, subBg }) {
                   <h6>Dirección</h6>
                 </div>
                 <div className="text">
-                  <p>Germany — 785 15h Street, Office 478 Berlin, De 81566</p>
+                  <p>3 Oriente 974, Viña del Mar, Chile.</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 offset-lg-1">
               <div className="colum md-mb50">
                 <div className="tit mb-20">
-                  <h6>Say Hello</h6>
+                  <h6>Contacto</h6>
                 </div>
                 <div className="text">
                   <p className="mb-10">
-                    <a href="#0">hello@design.com</a>
+                    <a href="#0">contacto@elephantgroup.cl
+
+</a>
                   </p>
                   <h5>
-                    <a href="#">+1 840 841 25 69</a>
+                    <a href="#">(+56 9) 9323 9203</a>
                   </h5>
                 </div>
               </div>
             </div>
             <div className="col-lg-2 md-mb50">
               <div className="tit mb-20">
-                <h6>Social</h6>
+                <h6>Redes Sociales</h6>
               </div>
               <ul className="rest social-text">
                 <li>
-                  <a href="#0">Facebook</a>
+                  <a href="https://web.facebook.com/search/top?q=elephant%20group">Facebook</a>
                 </li>
                 <li>
-                  <a href="#0">Twitter</a>
-                </li>
-                <li>
-                  <a href="#0">LinkedIn</a>
-                </li>
-                <li>
-                  <a href="#0">Instagram</a>
+                  <a href="https://www.instagram.com/elephantgroupchile/?hl=es">Instagram</a>
                 </li>
               </ul>
             </div>

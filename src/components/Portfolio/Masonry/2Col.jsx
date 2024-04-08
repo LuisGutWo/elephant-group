@@ -16,7 +16,7 @@ function Masonry() {
         <div className="row">
           <div className="filtering col-12 mb-80 text-center">
             <div className="filter">
-              <span className="text">Filter By :</span>
+              <span className="text">Filtrar por :</span>
               {
                 data.filters.map((item, index) => (
                   <span data-filter={item.filter} className={index === 0 ? 'active' : ''} data-count={item.count} key={item.id}>{item.title}</span>

@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/dark/page-contact": [
+    "/light/page-about": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/dark/page-contact.js"
-    ],
-    "/light/home-creative-agency": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/light/home-creative-agency.js"
+      "static/chunks/pages/light/page-about.js"
     ]
   },
   "ampFirstPages": []

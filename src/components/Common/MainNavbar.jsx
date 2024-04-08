@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { MdLightMode } from "react-icons/md";
+import { MdDarkMode } from "react-icons/md";
 import Link from "next/link";
 
 function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
@@ -122,54 +124,23 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                 </Link>
               </div>
             </li>
-            <li
-              className="nav-item dropdown"
-              onMouseMove={handleDropdownMouseMove}
-              onMouseLeave={handleDropdownMouseLeave}
-            >
-              <a
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                href={`/${lightMode ? "light" : "dark"}/portfolio-masonry-2`}
               >
                 <span className="rolling-text">Portafolio</span>
-              </a>
-              <div className="dropdown-menu">
-                <Link
-                  className="dropdown-item"
-                  href={`/${lightMode ? "light" : "dark"}/portfolio-masonry-2`}
-                >
-                  Algunos de nuestros trabajos
-                </Link>
-              </div>
+              </Link>
             </li>
-            <li
-              className="nav-item dropdown"
-              onMouseMove={handleDropdownMouseMove}
-              onMouseLeave={handleDropdownMouseLeave}
-            >
-              <a
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                href={`/${lightMode ? "light" : "dark"}/shop-list`}
               >
                 <span className="rolling-text">Tienda</span>
-              </a>
-              <div className="dropdown-menu">
-                <Link
-                  className="dropdown-item"
-                  href={`/${lightMode ? "light" : "dark"}/shop-list`}
-                >
-                  Listado de Productos
-                </Link>
-              </div>
+              </Link>
             </li>
+
             <li className="nav-item">
               <Link
                 className="nav-link"
@@ -178,35 +149,19 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                 <span className="rolling-text">Contacto</span>
               </Link>
             </li>
-            <li
-              className="nav-item dropdown"
-              onMouseMove={handleDropdownMouseMove}
-              onMouseLeave={handleDropdownMouseLeave}
-            >
-              <a
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                href={`/${
+                  lightMode
+                    ? "/dark/home-creative-agency"
+                    : "/light/home-creative-agency"
+                }`}
               >
-                <span className="rolling-text">Tema</span>
-              </a>
-              <div className="dropdown-menu">
-                <Link
-                  className="dropdown-item"
-                  href="/dark/home-creative-agency"
-                >
-                  Tema oscuro
-                </Link>
-                <Link
-                  className="dropdown-item"
-                  href="/light/home-creative-agency"
-                >
-                  Tema claro
-                </Link>
-              </div>
+                <span className="rolling-text fs-5 fw-bold">
+                  {lightMode ? <MdDarkMode /> : <MdLightMode />}
+                </span>
+              </Link>
             </li>
           </ul>
         </div>

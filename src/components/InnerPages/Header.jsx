@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
 
 function Header({ data, subBg }) {
   return (
-    <header className={`page-header section-padding pb-0 ${subBg ? 'sub-bg' : ''}`}>
+    <header
+      className={`page-header section-padding pb-0 ${subBg ? "sub-bg" : ""}`}
+    >
       <div className="container mt-80">
         <div className="row">
           <div className="col-lg-8">
@@ -15,7 +17,14 @@ function Header({ data, subBg }) {
         <div className="row">
           <div className="col-lg-5 offset-lg-4">
             <div className="text mt-30">
-              <p>We help our clients succeed by creating brand identities, digital experiences, and print materials that communicate clearly, achieve marketing goals, and look fantastic.</p>
+              <p>
+                Ayudamos a nuestros clientes a tener éxito mediante la creación
+                de sus propias marcas, experiencias digitales y materiales
+                impresos que se comuniquen con claridad. Nuestro principal
+                objetivo es ser su asesor publicitario y apoyarlos en todos los
+                procesos del proyecto para obtener el mejor resultado en su
+                campaña publicitaria y generan confianza en su marca.
+              </p>
             </div>
           </div>
         </div>
@@ -23,27 +32,23 @@ function Header({ data, subBg }) {
       <div className="main-marq xlrg section-padding pb-0">
         <div className="slide-har st1">
           <div className="box">
-            {
-              new Array(5).fill().map((_, i) => (
-                <div className="item" key={i}>
-                  <h4>{data.text}</h4>
-                </div>
-              ))
-            }
+            {new Array(5).fill().map((_, i) => (
+              <div className="item" key={i}>
+                <h4>{data.text}</h4>
+              </div>
+            ))}
           </div>
           <div className="box">
-            {
-              new Array(5).fill().map((_, i) => (
-                <div className="item" key={i}>
-                  <h4>{data.text}</h4>
-                </div>
-              ))
-            }
+            {new Array(5).fill().map((_, i) => (
+              <div className="item" key={i}>
+                <h4>{data.text}</h4>
+              </div>
+            ))}
           </div>
         </div>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

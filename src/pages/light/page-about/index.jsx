@@ -23,15 +23,15 @@ function PageAboutLight() {
   }, []);
 
   const headerMetadata = {
-    subTitle: "WHO WE ARE ?",
-    title: "We're a digital agency based in Valencia.",
+    subTitle: "QUIENES SOMOS ?",
+    title: "Somos Elephant Group, una agencia de publicidad y marketing establecida en Viña del Mar, Chile.",
     text: "About Us"
   }
 
   return (
     <>
       <Head>
-        <title>Geekfolio - About</title>
+        <title>Elephant Group - Nosotros</title>
       </Head>
 
       <Loader />

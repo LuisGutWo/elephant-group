@@ -2,77 +2,77 @@
   "filters": [
     {
       "id": 1,
-      "title": "All",
+      "title": "Todos",
       "filter": "*",
-      "count": "08"
+      "count": "06"
     },
     {
       "id": 2,
-      "title": "Branding",
-      "filter": ".brand",
-      "count": "03"
-    },
-    {
-      "id": 3,
-      "title": "Mobile App",
-      "filter": ".app",
+      "title": "Diseño",
+      "filter": ".design",
       "count": "02"
     },
     {
-      "id": 4,
-      "title": "Creative",
-      "filter": ".web",
-      "count": "03"
+      "id": 3,
+      "title": "Impresiones",
+      "filter": ".print",
+      "count": "04"
     }
   ],
   "gallery": [
     {
       "id": 1,
-      "filter": "web",
-      "image": "/dark/assets/imgs/works/grid2/1.jpg",
-      "type": "Design ART",
+      "filter": "print",
+      "image": "/dark/assets/imgs/works/grid2/trabajos-06.png",
+      "type": "Impresión",
       "year": "2023",
-      "title": "Character Design"
+      "title": "Impresión para Giant Be Cycling",
+      "width": 4
     },
     {
       "id": 2,
-      "filter": "app",
-      "image": "/dark/assets/imgs/works/grid2/v1.jpg",
-      "type": "Design ART",
+      "filter": "print",
+      "image": "/dark/assets/imgs/works/grid2/trabajos-07.png",
+      "type": "Impresión",
       "year": "2023",
-      "title": "Character Design"
+      "title": "Character Design",
+      "width": 6
     },
     {
       "id": 3,
-      "filter": "brand",
-      "image": "/dark/assets/imgs/works/grid2/v2.jpg",
-      "type": "Design ART",
+      "filter": "design",
+      "image": "/dark/assets/imgs/works/grid2/trabajos-08.png",
+      "type": "Diseño",
       "year": "2023",
-      "title": "Character Design"
+      "title": "Character Design",
+      "width": 6
     },
     {
       "id": 4,
-      "filter": "web",
-      "image": "/dark/assets/imgs/works/grid2/2.jpg",
-      "type": "Design ART",
+      "filter": "design",
+      "image": "/dark/assets/imgs/works/grid2/trabajos-09.png",
+      "type": "Diseño",
       "year": "2023",
-      "title": "Character Design"
+      "title": "Character Design",
+      "width": 4
     },
     {
       "id": 5,
-      "filter": "brand",
-      "image": "/dark/assets/imgs/works/grid2/3.jpg",
-      "type": "Design ART",
+      "filter": "print",
+      "image": "/dark/assets/imgs/works/grid2/trabajos-10.png",
+      "type": "Impresión",
       "year": "2023",
-      "title": "Character Design"
+      "title": "Character Design",
+      "width": 6
     },
     {
       "id": 6,
-      "filter": "app",
-      "image": "/dark/assets/imgs/works/grid2/v3.jpg",
-      "type": "Design ART",
+      "filter": "print",
+      "image": "/dark/assets/imgs/works/grid2/v6.png",
+      "type": "Impresión",
       "year": "2023",
-      "title": "Character Design"
+      "title": "Character Design",
+      "width": 6
     }
   ]
 }

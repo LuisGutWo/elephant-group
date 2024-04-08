@@ -8,12 +8,11 @@ import Loader from "@/components/Common/Loader";
 import Navbar from "@/components/Common/MainNavbar";
 import Header from "@/components/CreativeAgency/Header";
 import Marq from "@/components/CreativeAgency/Marq";
-import Clients from '@/components/MarketingAgency/Clients';
+import Clients from "@/components/MarketingAgency/Clients";
 import Intro from "@/components/CreativeAgency/Intro";
-import SectionImage from "@/components/CreativeAgency/SectionImage";
 import Services from "@/components/CreativeAgency/Services";
-import Portfolio from "@/components/CreativeAgency/Portfolio";
-import CallToAction from '@/components/Startup/CallToAction';
+import Portfolio from "@/components/Architecture/Portfolio";
+import CallToAction from "@/components/Startup/CallToAction";
 import Footer from "@/components/Startup/Footer";
 
 function HomeCreativeAgencyLight() {
@@ -32,12 +31,11 @@ function HomeCreativeAgencyLight() {
       <Navbar mainBg lightMode />
       <main className="main-bg position-re">
         <Header lightMode />
-        <Marq />
-        <Intro />
         <Services lightMode />
-        <Clients lightMode />
-        <SectionImage />
+        <Intro />
+        <Marq />
         <Portfolio />
+        <Clients lightMode />
         <CallToAction />
       </main>
       <Footer lightMode />
