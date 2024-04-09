@@ -20,7 +20,7 @@ function PageContact() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Contact Us</title>
+        <title>Elephant Group - Contacto</title>
       </Head>
 
       <Loader />

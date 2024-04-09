@@ -4450,7 +4450,7 @@ body.loaded {
   top: 0;
   width: 8px;
   height: 150px;
-  background: #c9f31d;
+  background: #f0a874;
 }
 
 .intro-corp .imgs .img1:before {
@@ -4466,11 +4466,11 @@ body.loaded {
 }
 
 .intro-corp .imgs .img1.main-color2:after {
-  background: #f08f74;
+  background: #f0a374;
 }
 
 .intro-corp .imgs .img1.main-color3:after {
-  background: #55e6a5;
+  background: #f0a874;
 }
 
 .intro-corp .imgs .img2 {

@@ -10,9 +10,6 @@ import Header from '@/components/InnerPages/Header';
 import Story from '@/components/InnerPages/About/Story';
 import Services from '@/components/InnerPages/About/Services';
 import Intro from '@/components/InnerPages/About/Intro';
-import Testimonials from '@/components/DigitalAgency/Testimonials';
-import Team from '@/components/Startup/Team';
-import Clients from '@/components/InnerPages/About/Clients';
 import CallToAction from '@/components/Startup/CallToAction';
 import Footer from '@/components/Startup/Footer';
 
@@ -25,7 +22,7 @@ function PageAboutLight() {
   const headerMetadata = {
     subTitle: "QUIENES SOMOS ?",
     title: "Somos Elephant Group, una agencia de publicidad y marketing establecida en Viña del Mar, Chile.",
-    text: "About Us"
+    text: "Nosotros"
   }
 
   return (
@@ -35,15 +32,12 @@ function PageAboutLight() {
       </Head>
 
       <Loader />
-      <Navbar mainBg />
+      <Navbar mainBg lightMode />
       <main>
         <Header data={headerMetadata} />
         <Story />
         <Services lightMode />
         <Intro />
-        <Testimonials mainColor />
-        <Team />
-        <Clients lightMode />
         <CallToAction innerPageStyle />
       </main>
       <Footer lightMode />

@@ -17,14 +17,14 @@ function PortfolioMasonry2() {
   }, []);
 
   const metadata = {
-    subTitle: "Our Works",
-    title: "Masonry 2."
+    subTitle: "Nuestros Trabajos",
+    title: "Conócenos."
   }
 
   return (
     <>
       <Head>
-        <title>Geekfolio - Portfolio Masonry 2 Col</title>
+        <title>Elephant Group - Trabajos</title>
       </Head>
 
       <Loader />

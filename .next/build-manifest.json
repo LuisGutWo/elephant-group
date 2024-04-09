@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/light/page-about": [
+    "/light/portfolio-metro": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/light/page-about.js"
+      "static/chunks/pages/light/portfolio-metro.js"
     ]
   },
   "ampFirstPages": []

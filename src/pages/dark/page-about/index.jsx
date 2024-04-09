@@ -10,9 +10,6 @@ import Header from '@/components/InnerPages/Header';
 import Story from '@/components/InnerPages/About/Story';
 import Services from '@/components/InnerPages/About/Services';
 import Intro from '@/components/InnerPages/About/Intro';
-import Testimonials from '@/components/DigitalAgency/Testimonials';
-import Team from '@/components/Startup/Team';
-import Clients from '@/components/InnerPages/About/Clients';
 import CallToAction from '@/components/Startup/CallToAction';
 import Footer from '@/components/Startup/Footer';
 
@@ -23,15 +20,15 @@ function PageAbout() {
   }, []);
 
   const headerMetadata = {
-    subTitle: "WHO WE ARE ?",
-    title: "We're a digital agency based in Valencia.",
-    text: "About Us"
+    subTitle: "QUIENES SOMOS ?",
+    title: "Somos Elephant Group, una agencia de publicidad y marketing establecida en Viña del Mar, Chile.",
+    text: "Acerca de nosotros"
   }
 
   return (
     <>
       <Head>
-        <title>Geekfolio - About</title>
+        <title>Elephant Group - Nosotros</title>
       </Head>
 
       <Loader />
@@ -41,9 +38,6 @@ function PageAbout() {
         <Story />
         <Services />
         <Intro />
-        <Testimonials mainColor />
-        <Team />
-        <Clients />
         <CallToAction innerPageStyle />
       </main>
       <Footer />

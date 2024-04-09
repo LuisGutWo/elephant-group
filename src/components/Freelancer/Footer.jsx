@@ -19,7 +19,7 @@ function Footer({ lightMode }) {
               <div className="copyright d-flex">
                 <div className="ml-auto">
                   <p className="fz-13">
-                    © 2023 Geekfolio is Proudly Powered by <span className="underline"> <a href={data.author_link} target="_blank">{data.author}</a></span>
+                    © 2024 Desarrollado por <span className="underline"> <a href={data.author_link} target="_blank">{data.author}</a></span>
                   </p>
                 </div>
               </div>

@@ -18,14 +18,14 @@ function PortfolioMetroLight() {
   }, []);
 
   const metadata = {
-    subTitle: "Our Works",
-    title: "Work Metro."
+    subTitle: "Nuestros Trabajos",
+    title: "Conócenos."
   }
 
   return (
     <>
       <Head>
-        <title>Geekfolio - Portfolio Metro</title>
+        <title>Elephant Group - Trabajos</title>
       </Head>
 
       <Loader />

@@ -57,17 +57,17 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
       } ${mainBg ? "main-bg" : ""} ${subBg ? "sub-bg" : ""}`}
     >
       <div className="container">
-        <a className="logo icon-img-200" href="#">
+        <Link className="logo icon-img-200" href="/">
           {lightMode ? (
-            <img src="/dark/assets/imgs/logo-dark.png" alt="logo" />
+            <img src="/dark/assets/imgs/logo-dark.png" alt="logo claro" />
           ) : (
             <img
               src="/dark/assets/imgs/logo-light.png"
-              alt="logo"
+              alt="logo oscuro"
               className="icon-img-100"
             />
           )}
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -127,7 +127,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
             <li className="nav-item">
               <Link
                 className="nav-link"
-                href={`/${lightMode ? "light" : "dark"}/portfolio-masonry-2`}
+                href={`/${lightMode ? "light" : "dark"}/portfolio-metro`}
               >
                 <span className="rolling-text">Portafolio</span>
               </Link>
