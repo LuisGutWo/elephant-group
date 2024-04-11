@@ -135,7 +135,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
             <li className="nav-item">
               <Link
                 className="nav-link"
-                href={`/${lightMode ? "light" : "dark"}/shop-list`}
+                href={"/dark/shop-list"}
               >
                 <span className="rolling-text">Tienda</span>
               </Link>
@@ -155,7 +155,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                 href={`/${
                   lightMode
                     ? "/dark/home-creative-agency"
-                    : "/light/home-creative-agency"
+                    : "/"
                 }`}
               >
                 <span className="rolling-text fs-5 fw-bold">

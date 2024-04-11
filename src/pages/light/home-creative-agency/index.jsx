@@ -11,7 +11,7 @@ import Marq from "@/components/CreativeAgency/Marq";
 import Intro from "@/components/CreativeAgency/Intro";
 import Clients from "@/components/MarketingAgency/Clients";
 import Services from "@/components/CreativeAgency/Services";
-import Portfolio from "@/components/Architecture/Portfolio";
+import Portfolio from "@/components/MarketingAgency/Portfolio";
 import CallToAction from "@/components/Startup/CallToAction";
 import Footer from "@/components/Startup/Footer";
 
@@ -31,9 +31,9 @@ function HomeCreativeAgencyLight() {
       <Navbar mainBg lightMode />
       <main className="main-bg position-re">
         <Header lightMode />
-        <Services lightMode />
-        <Intro />
         <Marq />
+        <Intro />
+        <Services lightMode />
         <Portfolio />
         <Clients lightMode />
         <CallToAction />

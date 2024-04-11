@@ -26,13 +26,13 @@ function ShopList() {
 
   const metadata = {
     subTitle: "SHOPPING",
-    title: "List."
+    title: "Productos."
   }
 
   return (
     <>
       <Head>
-        <title>Geekfolio - Shop List</title>
+        <title>Elephant Group - Productos</title>
       </Head>
 
       <Loader />

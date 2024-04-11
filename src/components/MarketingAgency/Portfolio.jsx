@@ -4,14 +4,14 @@ import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay, Pagination } from 'swiper';
 //= Data
-import data from '@/data/MarketingAgency/portfolio.json';
+import data from '@/data/CreativeAgency/portfolio.json';
 
 const swiperOptions = {
   modules: [Navigation, Pagination, Autoplay],
   slidesPerView: 3,
-  spaceBetween: 120,
+  spaceBetween: 90,
   loop: true,
-  speed: 1000,
+  speed: 800,
   centeredSlides: true,
   breakpoints: {
     0: {
@@ -53,8 +53,8 @@ function Portfolio() {
         <div className="sec-head mb-80">
           <div className="row">
             <div className="col-lg-6">
-              <h6 className="sub-title mb-15">Our Portfolio</h6>
-              <h2 className="fz-50">Selected Projects.</h2>
+              <h6 className="sub-title mb-15">Portafolio</h6>
+              <h2 className="fz-50">Trabajos  seleccionados.</h2>
             </div>
             <div className="col-lg-6 d-flex align-items-center">
               <div className="full-width">
@@ -98,7 +98,7 @@ function Portfolio() {
                               <span className="mb-5">{item.tag}</span>
                               <h6 className="fz-18">{item.title}</h6>
                             </div>
-                            <Link href="/dark/project-details1" className="plink"></Link>
+                            <Link href="#" className="plink"></Link>
                           </div>
                         </div>
                       </SwiperSlide>

@@ -9,6 +9,7 @@
         "bord",
         "butn",
         "carso",
+        "carsouel",
         "clasic",
         "colorbg",
         "colum",
@@ -35,6 +36,7 @@
         "prlx",
         "Recepcionamos",
         "serv",
+        "setload",
         "sideup",
         "simpl",
         "slideup",
@@ -51,6 +53,8 @@
         "valign",
         "valpo",
         "webmedia",
+        "whatsapp",
+        "Whatsapp",
         "xmlhttprequest"
     ]
 }

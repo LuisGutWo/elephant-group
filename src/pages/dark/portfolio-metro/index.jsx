@@ -24,7 +24,7 @@ function PortfolioMetro() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Portfolio Metro</title>
+        <title>Elephant Group - Trabajos</title>
       </Head>
 
       <Loader />

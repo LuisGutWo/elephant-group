@@ -57,31 +57,29 @@ function SideMenu() {
 
         <div className="item categories mb-40">
           <div className="title">
-            <h6>Categories</h6>
+            <h6>Categorías</h6>
           </div>
           <div className="dot-list">
             <ul className="rest">
-              <li><a href="#0">Technology</a></li>
-              <li><a href="#0">Accessories</a></li>
-              <li><a href="#0">Furniture</a></li>
-              <li><a href="#0">Clothes</a></li>
-              <li><a href="#0">Jewellery</a></li>
+              <li><a href="#0">Diseño</a></li>
+              <li><a href="#0">Imprenta</a></li>
+              <li><a href="#0">Web</a></li>
             </ul>
           </div>
         </div>
 
         <div className="item price-range mb-40">
           <div className="title">
-            <h6>Filter by Price</h6>
+            <h6>Filtrar por precio</h6>
           </div>
           <div className="wrapper">
             <div className="slider-range">
               <div className="progress"></div>
             </div>
             <div className="range-input">
-              <input type="range" className="range-min" min="10" max="10000" defaultValue="10"
+              <input type="range" className="range-min" min="10000" max="100000" defaultValue="10"
                 step="100" onInput={handleRangeInput} />
-              <input type="range" className="range-max" min="0" max="10000" defaultValue="7500"
+              <input type="range" className="range-max" min="0" max="100000" defaultValue="7500"
                 step="100" onInput={handleRangeInput} />
             </div>
             <div className="price-input d-flex align-items-center mt-15">
@@ -103,7 +101,7 @@ function SideMenu() {
 
         <div className="item best-sale mb-40">
           <div className="title">
-            <h6>Best Sellers</h6>
+            <h6>Lo mas vendido</h6>
           </div>
 
           <div className="line-list d-flex align-items-center">
@@ -173,17 +171,17 @@ function SideMenu() {
 
         <div className="item tags">
           <div className="title">
-            <h6>Popular Tags</h6>
+            <h6>lo mas buscado</h6>
           </div>
 
           <div className="tags-links">
-            <a href="#0">Design</a>
-            <a href="#0">Development</a>
-            <a href="#0">Tech</a>
-            <a href="#0">Blog</a>
-            <a href="#0">Branding</a>
-            <a href="#0">Mobile</a>
-            <a href="#0">ThemesCamp</a>
+            <a href="#0">tarjetas personales</a>
+            <a href="#0">Paginas web</a>
+            <a href="#0">Diseño de logo corporativo</a>
+            <a href="#0">Gigantografias</a>
+            <a href="#0">Pendones</a>
+            <a href="#0">Publicidad integral</a>
+            <a href="#0">Letreros</a>
           </div>
         </div>
 
