@@ -15,6 +15,8 @@ import Portfolio from "@/components/MarketingAgency/Portfolio";
 import CallToAction from "@/components/Startup/CallToAction";
 import Footer from "@/components/Startup/Footer";
 
+import { NextUIProvider } from "@nextui-org/react";
+
 function HomeCreativeAgencyLight() {
   useEffect(() => {
     document.body.classList.add("sub-bg");
@@ -27,18 +29,20 @@ function HomeCreativeAgencyLight() {
         <title>Elephant Group</title>
       </Head>
 
-      <Loader />
-      <Navbar mainBg lightMode />
-      <main className="main-bg position-re">
-        <Header lightMode />
-        <Marq />
-        <Intro />
-        <Services lightMode />
-        <Portfolio />
-        <Clients lightMode />
-        <CallToAction />
-      </main>
-      <Footer lightMode />
+      <NextUIProvider>
+        <Loader />
+        <Navbar mainBg lightMode />
+        <main className="main-bg position-re">
+          <Header lightMode />
+          <Marq />
+          <Intro />
+          <Services lightMode />
+          <Portfolio />
+          <Clients lightMode />
+          <CallToAction />
+        </main>
+        <Footer lightMode />
+      </NextUIProvider>
     </>
   );
 }

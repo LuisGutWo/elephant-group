@@ -7,6 +7,7 @@ import '@/styles/modal-video.css';
 import "swiper/css/bundle";
 import '@/styles/globals.css';
 
+
 function App({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);
 
@@ -18,6 +19,7 @@ function App({ Component, pageProps }) {
       </Head>
 
       <Component {...pageProps} />
+
 
       <Script strategy="beforeInteractive" src="/assets/js/plugins.js"></Script>
       <Script strategy="beforeInteractive" src="/assets/js/TweenMax.min.js"></Script>

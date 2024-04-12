@@ -9,7 +9,9 @@
         "ignore": [
           "-ms-filter",
           "backdrop-filter",
-          "min-height: auto"
+          "min-height: auto",
+          "-webkit-text-size-adjust",
+          "-webkit-tap-highlight-color"
         ]
       }
     ]

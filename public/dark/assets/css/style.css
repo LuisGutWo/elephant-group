@@ -6213,6 +6213,7 @@ footer .bg-pattern {
 .workinter .lg-sec-head h2 {
   background: -webkit-linear-gradient(90deg, transparent, #fff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -8673,6 +8674,7 @@ header.in-box {
   pointer-events: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
 }
 
 .main-shop .sidebar .price-range input[type="range"]::-webkit-slider-thumb {
@@ -9167,10 +9169,10 @@ header.in-box {
 }
 
 @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
-  .shop-cart {
+  /* .shop-cart {
     /* Force table to not be like tables anymore */
     /* Hide table headers (but not display: none;, for accessibility) */
-  }
+  /* }  */
   .shop-cart table {
     width: 100%;
   }
