@@ -3,10 +3,6 @@ import { MdLightMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
 import Link from "next/link";
 
-import { Switch } from "@nextui-org/react";
-import { MoonIcon } from "src/components/MoonIcon.jsx";
-import { SunIcon } from "src/components/SunIcon.jsx";
-
 function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -61,7 +57,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
       } ${mainBg ? "main-bg" : ""} ${subBg ? "sub-bg" : ""}`}
     >
       <div className="container">
-        <Link className="logo icon-img-200" href="/">
+        <Link className="logo icon-img-200" href={`/${lightMode ? "/" : "/dark/home-dark"}`}>
           {lightMode ? (
             <img src="/dark/assets/imgs/logo-dark.png" alt="logo claro" />
           ) : (
@@ -137,7 +133,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href={"/dark/shop-list"}>
+              <Link className="nav-link" href={`/${lightMode ? "light" : "dark"}/shop-list`}>
                 <span className="rolling-text">Tienda</span>
               </Link>
             </li>
@@ -153,7 +149,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
             <li className="nav-item">
               <Link
                 className="nav-link"
-                href={`/${lightMode ? "/dark/home-creative-agency" : "/"}`}
+                href={`/${lightMode ? "/dark/home-dark" : "/"}`}
               >
                 <span className="rolling-text fs-5 fw-bold">
                   {lightMode ? <MdDarkMode /> : <MdLightMode />}

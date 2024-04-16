@@ -8,9 +8,9 @@ import Loader from "@/components/Common/Loader";
 import Navbar from "@/components/Common/MainNavbar";
 import Header from "@/components/InnerPages/Header";
 import Services from "@/components/InnerPages/About/Services";
-import ServicesTab from "@/components/DigitalAgency/ServicesTab";
-import CallToAction from "@/components/Startup/CallToAction";
-import Footer from "@/components/Startup/Footer";
+import ServicesTab from "@/components/Main/ServicesTab";
+import CallToAction from "@/components/Main/CallToAction";
+import Footer from "@/components/Main/Footer";
 
 function PageServicesLight() {
   useEffect(() => {

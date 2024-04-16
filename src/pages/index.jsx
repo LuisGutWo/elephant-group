@@ -6,16 +6,14 @@ import Layout from "@/layouts/default";
 //= Components
 import Loader from "@/components/Common/Loader";
 import Navbar from "@/components/Common/MainNavbar";
-import Header from "@/components/CreativeAgency/Header";
-import Marq from "@/components/CreativeAgency/Marq";
-import Clients from "@/components/MarketingAgency/Clients";
-import Intro from "@/components/CreativeAgency/Intro";
-import Services from "@/components/CreativeAgency/Services";
-import Portfolio from "@/components/MarketingAgency/Portfolio";
-import CallToAction from "@/components/Startup/CallToAction";
-import Footer from "@/components/Startup/Footer";
-
-import { NextUIProvider } from "@nextui-org/react";
+import Header from "@/components/Main/Header";
+import Marq from "@/components/Main/Marq";
+import Clients from "@/components/Main/Clients";
+import Intro from "@/components/Main/Intro";
+import Services from "@/components/Main/Services";
+import Portfolio from "@/components/Main/Portfolio";
+import CallToAction from "@/components/Main/CallToAction";
+import Footer from "@/components/Main/Footer";
 
 function HomeCreativeAgencyLight() {
   useEffect(() => {
@@ -29,20 +27,18 @@ function HomeCreativeAgencyLight() {
         <title>Elephant Group</title>
       </Head>
 
-      <NextUIProvider>
-        <Loader />
-        <Navbar mainBg lightMode />
-        <main className="main-bg position-re">
-          <Header lightMode />
-          <Marq />
-          <Intro />
-          <Services lightMode />
-          <Portfolio />
-          <Clients lightMode />
-          <CallToAction />
-        </main>
-        <Footer lightMode />
-      </NextUIProvider>
+      <Loader />
+      <Navbar mainBg lightMode />
+      <main className="main-bg position-re">
+        <Header lightMode />
+        <Marq />
+        <Intro />
+        <Services lightMode />
+        <Portfolio />
+        <Clients lightMode />
+        <CallToAction />
+      </main>
+      <Footer lightMode />
     </>
   );
 }

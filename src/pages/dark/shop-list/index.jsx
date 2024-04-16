@@ -8,9 +8,9 @@ import Loader from '@/components/Common/Loader';
 import Navbar from '@/components/Common/MainNavbar';
 import Header from '@/components/Shop/Header';
 import List from '@/components/Shop/List';
-import Footer from '@/components/Startup/Footer';
+import Footer from '@/components/Main/Footer';
 
-function ShopList() {
+function ShopListDark() {
   useEffect(() => {
     document.body.classList.add('main-bg');
     // Smooth Scroll of Page
@@ -50,6 +50,6 @@ function ShopList() {
   )
 }
 
-ShopList.getLayout = page => <Layout>{page}</Layout>
+ShopListDark.getLayout = page => <Layout>{page}</Layout>
 
-export default ShopList;
+export default ShopListDark;

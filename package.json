@@ -24,8 +24,5 @@
     "react-scroll-parallax": "^3.4.2",
     "react-whatsapp-button": "^2.0.0",
     "swiper": "^8.4.6"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.3"
   }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 //= Components
 import StatementSplitter from '@/components/Common/StatementSplitter';
 //= Data
-import data from '@/data/CreativeAgency/services.json';
+import data from '@/data/Main/services.json';
 
 function Services({ lightMode }) {
   return (

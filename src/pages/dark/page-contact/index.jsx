@@ -8,7 +8,7 @@ import Loader from '@/components/Common/Loader';
 import Navbar from '@/components/Common/MainNavbar';
 import Header from '@/components/InnerPages/Contact/Header';
 import Form from '@/components/InnerPages/Contact/Form';
-import Footer from '@/components/Freelancer/Footer';
+import Footer from '@/components/Main/Footer';
 
 
 function PageContact() {

@@ -24,25 +24,25 @@ function Products() {
       <div className="shop-products">
         <div className="top-side d-flex align-items-end mb-40">
           <div>
-            <h6 className="fz-16 line-height-1">Showing 1–9 of 12 results</h6>
+            <h6 className="fz-16 line-height-1">Mostrando 1–9 of 12 resultados</h6>
           </div>
           <div className="ml-auto">
             <div className="select">
               <select className="form-control select-hidden" onClick={openList}>
-                <option value="Most Popular">Most Popular</option>
-                <option value="Sort by average rating">Sort by average rating</option>
-                <option value="Price [Lowest to Highest]">Price [Lowest to Highest]</option>
-                <option value="Price [Highest to Lowest]">Price [Highest to Lowest]</option>
+                <option value="Most Popular">Mas Popular</option>
+                <option value="Sort by average rating">Ordenar por clasificación de venta</option>
+                <option value="Price [Lowest to Highest]">Precio [Lowest to Highest]</option>
+                <option value="Price [Highest to Lowest]">Precio [Highest to Lowest]</option>
               </select>
-              <div className="select-styled" onClick={openList}>Most Popular</div>
+              <div className="select-styled" onClick={openList}>Mas Popular</div>
               <ul className="select-options">
-                <li rel="Most Popular" onClick={handleItemClick}>Most Popular</li>
-                <li rel="Sort by average rating" onClick={handleItemClick}>Sort by average rating</li>
-                <li rel="Price [Lowest to Highest]" onClick={handleItemClick}>Price [Lowest to Highest]</li>
-                <li rel="Price [Highest to Lowest]" onClick={handleItemClick}>Price [Highest to Lowest]</li>
+                <li rel="Most Popular" onClick={handleItemClick}>Mas Popular</li>
+                <li rel="Sort by average rating" onClick={handleItemClick}>Ordenar por clasificacion de venta</li>
+                <li rel="Price [Lowest to Highest]" onClick={handleItemClick}>Precio [Lowest to Highest]</li>
+                <li rel="Price [Highest to Lowest]" onClick={handleItemClick}>Prec [Highest to Lowest]</li>
               </ul>
             </div>
-          </div>
+          </div>io
         </div>
         <div className="row">
           {
@@ -51,7 +51,7 @@ function Products() {
                 <div className="item mb-50">
                   <div className="img">
                     <img src={item.image} alt="" />
-                    <a href="#0" className="add-cart">Add to Cart</a>
+                    <a href="#0" className="add-cart">Agregar al carrito</a>
                     <span className="fav"><i className="far fa-heart"></i></span>
                   </div>
                   <div className="cont">

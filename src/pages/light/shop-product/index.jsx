@@ -26,7 +26,7 @@ function ShopProductLight() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Shop Product</title>
+        <title>Elephant Group - Detalle producto</title>
       </Head>
 
       <Loader />

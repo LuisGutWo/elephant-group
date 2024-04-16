@@ -7,7 +7,7 @@ function Header() {
         <div className="row">
           <div className="col-lg-7">
             <div className="caption">
-              <h6 className="sub-title">Contactanos</h6>
+              <h6 className="sub-title">Contáctenos</h6>
               <h1 className="fz-55">Hagamos <br /> brillar tu marca!</h1>
             </div>
           </div>

@@ -6,9 +6,9 @@ import Layout from "@/layouts/default";
 //= Components
 import Loader from "@/components/Common/Loader";
 import Navbar from "@/components/Common/MainNavbar";
-import Footer from "@/components/Startup/Footer";
-import Header from "@/components/Portfolio/Header";
-import Metro from "@/components/Portfolio/Metro";
+import Footer from "@/components/Main/Footer";
+import Header from "@/components/Portfolio/HeaderPortfolio";
+import Metro from "@/components/Portfolio/MetroGridPortfolio";
 
 function PortfolioMetro() {
   useEffect(() => {

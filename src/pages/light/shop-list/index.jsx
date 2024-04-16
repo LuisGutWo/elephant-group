@@ -8,7 +8,7 @@ import Loader from '@/components/Common/Loader';
 import Navbar from '@/components/Common/MainNavbar';
 import Header from '@/components/Shop/Header';
 import List from '@/components/Shop/List';
-import Footer from '@/components/Startup/Footer';
+import Footer from 'src/components/Main/Footer.jsx';
 
 function ShopListLight() {
   useEffect(() => {
