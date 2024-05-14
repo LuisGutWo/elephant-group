@@ -10,7 +10,7 @@ import Header from '@/components/InnerPages/Header';
 import Story from '@/components/InnerPages/About/Story';
 import Services from '@/components/InnerPages/About/Services';
 import Intro from '@/components/InnerPages/About/Intro';
-import CallToAction from '@/components/Main/CallToAction';
+import CallToAction from '@/components/Main/Contact';
 import Footer from '@/components/Main/Footer';
 
 function PageAboutLight() {

@@ -58,7 +58,9 @@ function Intro({ lightMode }) {
                   </div>
                   <div className="underline">
                     <Link
-                      href="/dark/page-about"
+                      href={`/${
+                        lightMode ? "/dark/page-about" : "/light/page-about"
+                      }`}
                       className="mt-30 ls1 sub-title"
                     >
                       Leer mas{" "}

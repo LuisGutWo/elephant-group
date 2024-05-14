@@ -9,7 +9,7 @@ import Navbar from '@/components/Common/MainNavbar';
 import Header from '@/components/InnerPages/ProjectDetails/Header';
 import Content from '@/components/InnerPages/ProjectDetails/Content';
 import CallToAction from '@/components/InnerPages/ProjectDetails/CallToAction';
-import Footer from '@/components/Startup/Footer';
+import Footer from '@/components/Main/Footer';
 
 
 function ProjectDetails() {

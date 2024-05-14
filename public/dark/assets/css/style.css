@@ -15,7 +15,7 @@
 
 body {
   color: #fff;
-  background-color: #1d1d1d;
+  background-color: #1e1e1e;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
   font-family: 'Sora', sans-serif;
@@ -622,7 +622,7 @@ img {
   pointer-events: none;
   position: fixed;
   padding: 0.3rem;
-  background-color: #ffc7a6;
+  background-color: #df8c5b;
   border-radius: 50%;
   mix-blend-mode: difference;
   -webkit-transition: opacity 0.4s ease, -webkit-transform 0.3s ease;
@@ -835,7 +835,7 @@ img {
   line-height: 44px;
   font-size: 13px;
   font-weight: 900;
-  color: #ccc;
+  color: #e8e6e6;
   left: 0;
   top: 0;
   height: 44px;
@@ -5254,18 +5254,18 @@ body.loaded {
 
 /* Contact
 -----------------------------------------------------------------*/
-.call-action-img .sec-bg-img {
+.contact-img .sec-bg-img {
   height: 450px;
   width: 130%;
   position: relative;
   margin-bottom: -200px;
 }
 
-.call-action-img .sec-lg-head {
+.contact-img .sec-lg-head {
   position: relative;
 }
 
-.call-action-img .sec-lg-head:after {
+.contact-img .sec-lg-head:after {
   content: '';
   position: absolute;
   top: 0;
@@ -9668,10 +9668,10 @@ header.in-box {
   .call-action-center h2.fz-70 {
     font-size: 50px !important;
   }
-  .call-action-img .sec-lg-head {
+  .contact-img .sec-lg-head {
     padding: 80px 0;
   }
-  .call-action-img .fz-50 {
+  .contact-img .fz-50 {
     font-size: 35px !important;
   }
   footer .sub-footer .ml-auto {
@@ -10100,18 +10100,18 @@ header.in-box {
   .call-action-center h2.fz-70 {
     font-size: 30px !important;
   }
-  .call-action-img .sec-bg-img {
+  .contact-img .sec-bg-img {
     width: 100%;
     height: 400px;
   }
-  .call-action-img .sec-lg-head .col-11.d-flex {
+  .contact-img .sec-lg-head .col-11.d-flex {
     display: block !important;
     width: 100% !important;
   }
-  .call-action-img .sec-lg-head .col-11.d-flex h2 {
+  .contact-img .sec-lg-head .col-11.d-flex h2 {
     font-size: 30px !important;
   }
-  .call-action-img .sec-lg-head .butn-circle {
+  .contact-img .sec-lg-head .butn-circle {
     margin-top: 30px !important;
   }
   footer .call-box h2 {

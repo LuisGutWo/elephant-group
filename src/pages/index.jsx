@@ -12,7 +12,7 @@ import Clients from "@/components/Main/Clients";
 import Intro from "@/components/Main/Intro";
 import Services from "@/components/Main/Services";
 import Portfolio from "@/components/Main/Portfolio";
-import CallToAction from "@/components/Main/CallToAction";
+import Contact from "@/components/Main/Contact";
 import Footer from "@/components/Main/Footer";
 
 function HomeCreativeAgencyLight() {
@@ -36,7 +36,7 @@ function HomeCreativeAgencyLight() {
         <Services lightMode />
         <Portfolio />
         <Clients lightMode />
-        <CallToAction />
+        <Contact />
       </main>
       <Footer lightMode />
     </>

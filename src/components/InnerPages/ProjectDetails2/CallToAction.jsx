@@ -9,7 +9,7 @@ function CallToAction() {
   }, []);
 
   return (
-    <section className="call-action-img">
+    <section className="contact-img">
       <div className="container">
         <div className="sec-bg-img bg-img parallaxie" data-background="/dark/assets/imgs/works/projects/1/1.jpg"></div>
         <div className="sec-lg-head section-padding">

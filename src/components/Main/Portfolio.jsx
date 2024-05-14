@@ -42,7 +42,7 @@ const swiperOptions = {
   }
 }
 
-function Portfolio() {
+function Portfolio({ lightMode } ) {
   const [loadSwiper, setLoadSwiper] = useState(false);
 
   useEffect(() => {

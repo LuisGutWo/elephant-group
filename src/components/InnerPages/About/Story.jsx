@@ -6,7 +6,7 @@ import loadBackgroudImages from "@/common/loadBackgroudImages";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination, Parallax, EffectFade } from "swiper";
 //= Data
-import data from "@/data/CreativeAgency/about.json";
+import data from "@/data/Main/header.json";
 
 const swiperOptions = {
   modules: [Navigation, Autoplay, Pagination, Parallax, EffectFade],

@@ -12,7 +12,7 @@ import Intro from "@/components/Main/Intro";
 import Clients from "@/components/Main/Clients";
 import Services from "@/components/Main/Services";
 import Portfolio from "@/components/Main/Portfolio";
-import CallToAction from "@/components/Main/CallToAction";
+import CallToAction from "@/components/Main/Contact";
 import Footer from "@/components/Main/Footer";
 
 function HomeLight() {

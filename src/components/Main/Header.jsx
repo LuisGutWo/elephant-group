@@ -36,7 +36,7 @@ const swiperOptions = {
     prevEl: ".slider-prlx .prev-ctrl",
   },
 };
-function Header() {
+function Header({ lightMode }) {
   const [loadSwiper, setLoadSwiper] = useState(false);
 
   useEffect(() => {
@@ -66,9 +66,18 @@ function Header() {
                       </h5>
                     </div>
                   </div>
-                  <div className="col-lg-3 offset-lg-1 valign" style={{ marginTop: "10rem" }}>
+                  <div
+                    className="col-lg-3 offset-lg-1 valign"
+                    style={{ marginTop: "10rem" }}
+                  >
                     <div className="ml-auto explore">
-                      <Link href="/dark/project-details1">
+                      <Link
+                        href={`/${
+                          lightMode
+                            ? "/light/portfolio-metro"
+                            : "/dark/portfolio-metro"
+                        }`}
+                      >
                         <div className="circle-button">
                           <div className="rotate-circle fz-30 text-dark">
                             <svg className="textcircle" viewBox="0 0 500 500">

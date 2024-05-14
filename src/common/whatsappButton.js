@@ -1,9 +1,7 @@
 import React from 'react'
-import { useRouter } from 'next/router';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const WhatsappButton = () => {
-    const router = useRouter();
 
     const handleClick = async () => {
         if (navigator.userAgent.includes('WhatsApp')) {

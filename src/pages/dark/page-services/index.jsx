@@ -9,7 +9,7 @@ import Navbar from "@/components/Common/MainNavbar";
 import Header from "@/components/InnerPages/Header";
 import Services from "@/components/InnerPages/About/Services";
 import ServicesTab from "@/components/Main/ServicesTab";
-import CallToAction from "@/components/Main/CallToAction";
+import CallToAction from "@/components/Main/Contact";
 import Footer from "@/components/Main/Footer";
 
 function PageServices() {
