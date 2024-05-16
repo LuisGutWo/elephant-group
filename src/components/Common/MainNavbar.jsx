@@ -132,11 +132,11 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                 <span className="rolling-text">Portafolio</span>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" href={`/${lightMode ? "light" : "dark"}/shop-list`}>
                 <span className="rolling-text">Tienda</span>
               </Link>
-            </li>
+            </li> */}
 
             <li className="nav-item">
               <Link
