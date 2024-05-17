@@ -30,7 +30,7 @@ function HomeDark() {
       <Loader />
       <Navbar mainBg />
       <main className="main-bg position-re">
-        <Header />
+        <Header lightMode/>
         <Marq />
         <Intro />
         <Services />

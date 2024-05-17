@@ -3,6 +3,7 @@ import Link from "next/link";
 //= Modules
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination, Parallax } from "swiper";
+import { useMediaQuery } from "react-responsive";
 //= Scripts
 import loadBackgroudImages from "@/common/loadBackgroudImages";
 //= Data
@@ -38,6 +39,7 @@ const swiperOptions = {
 };
 function Header({ lightMode }) {
   const [loadSwiper, setLoadSwiper] = useState(false);
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
   useEffect(() => {
     setLoadSwiper(true);
@@ -55,7 +57,9 @@ function Header({ lightMode }) {
             <SwiperSlide key={item.id}>
               <div
                 className="bg-img valign"
-                data-background={item.background}
+                data-background={
+                  isTabletOrMobile ? item.backgroundMobile : item.background
+                }
               ></div>
               <div className="container">
                 <div className="row">

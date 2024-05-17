@@ -27,7 +27,7 @@
             position: absolute;
             top: 50%;
             left: 0;
-            background: #fff;
+            background: #e9ecef;
         }
     }
 }
@@ -76,7 +76,7 @@
             width: 15px;
             height: 1px;
             transform: translateY(-50%);
-            background: #999;
+            background: #ced4da;
         }
     }
 
@@ -120,7 +120,7 @@
                     width: 1px;
                     height: 15px;
                     transform: translateY(-50%);
-                    background: #999;
+                    background: #ced4da;
                 }
             }
         }
@@ -162,7 +162,7 @@
 
         .stroke{
             color: transparent;
-            -webkit-text-stroke: 1px #fff;
+            -webkit-text-stroke: 1px #e9ecef;
             font-weight: 800;
             line-height: 1;
         }

@@ -3,6 +3,7 @@
     "id": 1,
     "number": "01",
     "background": "/light/assets/imgs/header/main-banner-elephantgroup.png",
+    "backgroundMobile": "/light/assets/imgs/header/banner-mobile1-520x642.png",
     "title": "Explore <BR> The Future",
     "text": "We developed strong relationships with contractors and specialist companies offering discounted prices."
   },
@@ -10,6 +11,7 @@
     "id": 2,
     "number": "02",
     "background": "/light/assets/imgs/header/main-banner-paint.png",
+    "backgroundMobile": "/light/assets/imgs/header/banner-mobile2-520x642.png",
     "title": "Dustin <BR> Villa, Spain",
     "text": "We developed strong relationships with contractors and specialist companies offering discounted prices."
   },
@@ -17,14 +19,16 @@
     "id": 3,
     "number": "03",
     "background": "/light/assets/imgs/header/banner-2-aquarela.png",
-    "title": "Minimalest Architectures",
+    "backgroundMobile": "/light/assets/imgs/header/banner-mobile3-520x642.png",
+    "title": "Minimalist Architectures",
     "text": "We developed strong relationships with contractors and specialist companies offering discounted prices."
   },
   {
     "id": 4,
     "number": "04",
     "background": "/light/assets/imgs/header/main-banner-magenta.png",
-    "title": "Minimalest Architectures",
+    "backgroundMobile": "/light/assets/imgs/header/banner-mobile4-520x642.png",
+    "title": "Minimalist Architectures",
     "text": "We developed strong relationships with contractors and specialist companies offering discounted prices."
   }
 ]

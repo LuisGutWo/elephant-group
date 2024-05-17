@@ -9,7 +9,7 @@ function Intro({ lightMode }) {
           <div className="col-lg-5 valign">
             <div className="about-circle-crev md-hide">
               <div className="circle-button">
-                <div className="rotate-circle fz-16 ls1 text-u">
+                <div className="rotate-circle fz-16 ls1">
                   <svg className="textcircle" viewBox="0 0 500 500">
                     <defs>
                       <path
