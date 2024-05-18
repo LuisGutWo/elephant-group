@@ -8,7 +8,7 @@ import Loader from '@/components/Common/Loader';
 import Navbar from '@/components/Common/MainNavbar';
 import Header from '@/components/Shop/Header';
 import Checkout from '@/components/Shop/Checkout';
-import Footer from '@/components/Startup/Footer';
+import Footer from '@/components/Main/Footer';
 
 function ShopCheckout() {
   useEffect(() => {

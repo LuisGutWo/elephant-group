@@ -7,7 +7,7 @@ import Layout from '@/layouts/default';
 import Loader from '@/components/Common/Loader';
 import Navbar from '@/components/Common/MainNavbar';
 import Product from '@/components/Shop/Product';
-import Footer from '@/components/Startup/Footer';
+import Footer from '@/components/Main/Footer';
 
 function ShopProduct() {
   useEffect(() => {
