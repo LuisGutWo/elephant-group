@@ -6,9 +6,9 @@ import Layout from '@/layouts/default';
 //= Components
 import Loader from '@/components/Common/Loader';
 import Navbar from '@/components/Common/MainNavbar';
-import Header from '@/components/Shop/Header';
+import Header from '@/components/Main/Header';
 import Cart from '@/components/Shop/Cart';
-import Footer from '@/components/Startup/Footer';
+import Footer from '@/components/Main/Footer';
 
 function ShopCart() {
   useEffect(() => {
@@ -25,14 +25,14 @@ function ShopCart() {
   }, []);
 
   const metadata = {
-    subTitle: "SHOPPING",
-    title: "Cart."
+    subTitle: "PRODUCTOS",
+    title: "Tienda Virtual"
   }
 
   return (
     <>
       <Head>
-        <title>Geekfolio - Shop Cart</title>
+        <title>Elephant Group - shop cart</title>
       </Head>
 
       <Loader />

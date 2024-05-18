@@ -11,9 +11,18 @@
           "backdrop-filter",
           "min-height: auto",
           "-webkit-text-size-adjust",
-          "-webkit-tap-highlight-color"
+          "-webkit-tap-highlight-color",
+          "scrollbar-width"
         ]
       }
     ]
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 113",
+    "not firefox <= 113",
+    "not safari <= 16.5",
+    "not samsung <= 21"
+  ]
 }

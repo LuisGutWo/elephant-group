@@ -57,9 +57,16 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
       } ${mainBg ? "main-bg" : ""} ${subBg ? "sub-bg" : ""}`}
     >
       <div className="container">
-        <Link className="logo icon-img-200" href={`/${lightMode ? "/" : "/dark/home-dark"}`}>
+        <Link
+          className="logo icon-img-200"
+          href={`/${lightMode ? "/" : "/dark/home-dark"}`}
+        >
           {lightMode ? (
-            <img src="/dark/assets/imgs/logo-dark.png" alt="logo claro" />
+            <img
+              src="/dark/assets/imgs/logo-dark.png"
+              alt="logo claro"
+              className="icon-img-120"
+            />
           ) : (
             <img
               src="/dark/assets/imgs/logo-light.png"

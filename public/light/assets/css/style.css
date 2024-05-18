@@ -1662,9 +1662,15 @@ img.left {
 .icon-img-100 {
   width: 100px;
 }
+.icon-img-110 {
+  width: 130px;
+}
+.icon-img-115 {
+  width: 240px;
+}
 
 .icon-img-120 {
-  width: 120px;
+  width: 300px;
 }
 
 /*-------------------------------------------------------
@@ -5390,7 +5396,7 @@ body.loaded {
   right: 0;
   width: 400%;
   height: 100%;
-  background: #ebe2db !important;
+  background: #212529 !important;
 }
 
 .call-action-center .bg-pattern {
@@ -5871,7 +5877,7 @@ footer .bg-pattern {
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
   transform: rotate(-3deg);
-  width: calc(100% + 60px);
+  width: 100%;
   margin-left: -30px;
   background: #f8f9fa;
 }

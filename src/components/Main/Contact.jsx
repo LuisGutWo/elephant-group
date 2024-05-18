@@ -14,7 +14,7 @@ function Contact({ lightMode, innerPageStyle }) {
         <div className="sec-bg-img bg-img parallaxie" data-background="/dark/assets/imgs/background/2123.png"></div>
         <div className="sec-lg-head section-padding">
           <div className="row ontop">
-            <div className="col-11 d-flex align-items-center">
+            <div className="col-11 d-flex align-items-center bg-dark">
               <div className="valign">
                 <h2 className="fz-50 d-rotate wow">
                   <span className="rotate-text">Tienes un proyecto en mente?</span>

@@ -44,7 +44,7 @@ function Clients({ lightMode }) {
         <div className="row justify-content-center">
           <div className="col-lg-9">
             <div className="text-center mb-70">
-              <h6 className="fz-18 fw-400">
+              <h6 className="fz-20 fw-400">
                 Mas de <span className="fw-600">100+ partners</span> confían en
                 nosotros en todo Chile
               </h6>
@@ -56,12 +56,12 @@ function Clients({ lightMode }) {
             <Swiper
               {...swiperOptions}
               id="content-carousel-container-unq-clients"
-              className="swiper-container"
+              className="swiper-container d-flex justify-content-end align-items-end"
             >
               {data.map((item) => (
                 <SwiperSlide key={item}>
                   <div className="item">
-                    <div className="img icon-img-120">
+                    <div className="img icon-img-110">
                       <img
                         src={`/${lightMode ? "light" : "dark"}${item}`}
                         alt=""

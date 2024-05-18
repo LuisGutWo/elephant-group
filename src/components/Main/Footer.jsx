@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useEffect } from "react";
 
 function Footer({ lightMode, subBg }) {
@@ -78,19 +79,20 @@ function Footer({ lightMode, subBg }) {
             </div>
           </div>
         </div>
-        <div className="sub-footer pt-40 pb-40 bord-thin-top ontop">
+        <div className="sub-footer pt-20 pb-20 bord-thin-top ontop">
           <div className="container">
             <div className="row">
               <div className="col-lg-4">
                 <div className="logo">
-                  <a href="#0">
+                  <Link href="/">
                     <img
-                      src={`/dark/assets/imgs/logo-${
+                      src={`/dark/assets/imgs/logo2-${
                         lightMode ? "dark" : "light"
                       }.png`}
                       alt=""
+                      className="icon-img-80"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-8">
