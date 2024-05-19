@@ -5941,6 +5941,7 @@ footer .bg-pattern {
 .serv-marq {
   width: 100%;
   position: relative;
+  overflow: hidden;
   z-index: 3;
 }
 
@@ -6831,7 +6832,7 @@ footer .bg-pattern {
 }
 
 .work-carsouel .work-crus.random .swiper-container {
-  overflow: visible;
+  overflow: hidden;
 }
 
 .work-carsouel .work-crus.random .swiper-slide .item .img {

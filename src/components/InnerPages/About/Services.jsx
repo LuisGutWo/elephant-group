@@ -28,7 +28,7 @@ function Services({ lightMode }) {
             data.map(item => (
               <div className="col-lg-4 text-center" key={item.id}>
                 <div className="serv-item md-mb50 radius-10 d-flex flex-column justify-content-center align-items-center">
-                  <div className="icon-img-120 mb-40 ">
+                  <div className="icon-img-100 mb-40 ">
                     <img src={`/${lightMode ? 'light' : 'dark'}/${item.image}`} alt="" />
                   </div>
                   <h5 className="mb-30 pb-30 bord-thin-bottom"><StatementSplitter statement={item.title} /></h5>

@@ -79,7 +79,7 @@ function Footer({ lightMode, subBg }) {
             </div>
           </div>
         </div>
-        <div className="sub-footer pt-20 pb-20 bord-thin-top ontop">
+        <div className="sub-footer pt-20 pb-20 bord-thin-top ontop bg-dark">
           <div className="container">
             <div className="row">
               <div className="col-lg-4">
@@ -98,7 +98,7 @@ function Footer({ lightMode, subBg }) {
               <div className="col-lg-8">
                 <div className="copyright d-flex">
                   <div className="ml-auto">
-                    <p className="fz-13">
+                    <p className="fz-13" style={{ color: "#f8f9fa" }}>
                       © 2024 LAG-webmedia | Elephant Group{" "}
                       <span className="underline"></span>
                     </p>
