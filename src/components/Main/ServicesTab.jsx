@@ -31,7 +31,7 @@ function ServicesTab({ lightMode }) {
                       <img
                         src={`/${
                           lightMode ? "light" : "dark"
-                        }/assets/imgs/serv-icons/0.png`}
+                        }/assets/imgs/serv-icons/4.png`}
                         alt=""
                       />
                     </div>
@@ -173,7 +173,7 @@ function ServicesTab({ lightMode }) {
                   data-tab="tabs-1"
                   onClick={openTab}
                 >
-                  <span>01</span> Publicidad
+                  <span>01</span> Router CNC
                 </li>
                 <li
                   className="item-link mb-15"
@@ -190,7 +190,7 @@ function ServicesTab({ lightMode }) {
                   <span>03</span> Imprenta
                 </li>
                 <li className="item-link" data-tab="tabs-4" onClick={openTab}>
-                  <span>04</span> Diseño web
+                  <span>04</span> Programación Web
                 </li>
               </ul>
             </div>

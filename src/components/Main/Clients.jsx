@@ -45,7 +45,7 @@ function Clients({ lightMode }) {
           <div className="col-lg-9">
             <div className="text-center mb-70">
               <h6 className="fz-20 fw-400">
-                Mas de <span className="fw-600">100+ partners</span> confían en
+                Mas de <span className="fw-600">100+ Clientes</span> confían en
                 nosotros en todo Chile
               </h6>
             </div>
@@ -61,7 +61,7 @@ function Clients({ lightMode }) {
               {data.map((item) => (
                 <SwiperSlide key={item}>
                   <div className="item">
-                    <div className="img icon-img-110">
+                    <div className="img icon-img-150">
                       <img
                         src={`/${lightMode ? "light" : "dark"}${item}`}
                         alt=""

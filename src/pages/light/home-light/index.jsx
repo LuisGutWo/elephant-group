@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-//= Packages
+// Packages
 import Head from "next/head";
-//= Layout
+// Layout
 import Layout from "@/layouts/default";
-//= Components
+// Components
 import Loader from "@/components/Common/Loader";
 import Navbar from "@/components/Common/MainNavbar";
 import Header from "@/components/Main/Header";

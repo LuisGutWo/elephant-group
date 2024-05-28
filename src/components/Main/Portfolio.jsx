@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-//= Modules
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay, Pagination, Parallax } from 'swiper';
-//= Data
+
 import data from '@/data/Main/portfolio.json';
 
 const swiperOptions = {

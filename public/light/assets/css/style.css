@@ -278,6 +278,9 @@ figure {
 .main-bg {
   background-color: #f8f9fa;
 }
+.main-bg2 {
+  background-color: #6c757d;
+}
 
 .sub-bg {
   background-color: #e9ecef;
@@ -3036,6 +3039,31 @@ body.loaded {
 /* ====================== [ End Overlay ] ====================== */
 /* Menu
 -----------------------------------------------------------------*/
+.top__navbar {
+  background-color: #343a40;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.top__navbar-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.top__navbar-list li p {
+  color: #e9ecefcb;
+  font-size: small;
+} 
+.top__navbar-list li a {
+  color: #f8f9fa;
+} 
+
 .navbar {
   position: absolute;
   left: 0;
@@ -3108,6 +3136,10 @@ body.loaded {
 .navbar.main-bg {
   background: #e9ecef;
   border-color: rgba(0, 0, 0, 0.05);
+}
+.topnavbar.main-bg2 {
+  background: #212529;
+  border-color: rgba(255, 255, 255, 0.05);
 }
 
 .navbar.sub-bg {
@@ -7427,7 +7459,7 @@ body.inter-center {
 }
 
 .services-tab .serv-tab-link .item-link {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 500;
   cursor: pointer;
 }
@@ -9967,6 +9999,9 @@ header.in-box {
   }
   .topnav .logo {
     width: 100px;
+  }
+  .top__navbar {
+    display: none;  
   }
   .hamenu {
     padding: 120px 15px 15px;

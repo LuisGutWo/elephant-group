@@ -23,12 +23,6 @@ function Marq() {
                   </div>
                   <div className="item">
                     <h4 className="d-flex align-items-center">
-                      <span>Marketing Digital</span>{" "}
-                      <span className="fz-50 ml-50 stroke icon">*</span>
-                    </h4>
-                  </div>
-                  <div className="item">
-                    <h4 className="d-flex align-items-center">
                       <span>Imprenta</span>{" "}
                       <span className="fz-50 ml-50 stroke icon">*</span>
                     </h4>
@@ -50,12 +44,6 @@ function Marq() {
                   <div className="item">
                     <h4 className="d-flex align-items-center">
                       <span>Diseño</span>{" "}
-                      <span className="fz-50 ml-50 stroke icon">*</span>
-                    </h4>
-                  </div>
-                  <div className="item">
-                    <h4 className="d-flex align-items-center">
-                      <span>Marketing Digital</span>{" "}
                       <span className="fz-50 ml-50 stroke icon">*</span>
                     </h4>
                   </div>
