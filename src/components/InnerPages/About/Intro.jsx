@@ -52,15 +52,18 @@ function Intro() {
               <div className="accordion bord mt-40">
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".1s">
                   <div className="title" onClick={openAccordion}>
-                    <h6 className="fz-18">Publicidad (general)</h6>
+                    <h6 className="fz-18">Router CNC</h6>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
                     <p className="fz-14">
-                      Asesoramos a particulares o empresas, que necesiten dar
-                      forma y dirección a sus ideas, entregando el conocimiento
-                      y las herramientas para iniciar o mejorar la imagen
-                      comunicacional de su empresa o emprendimiento.
+                      Servicio de corte y grabado en 2D, y servicio de
+                      mecanizado 3D. Nuestra cama de corte es de 2000 x 3000 mm.
+                      Podemos trabajar todo tipo de maderas, naturales o
+                      procesadas. Ademas de una infinidad de materiales, tales
+                      como: plásticos de ingeniería, acrílicos, aluminio
+                      compuesto, HPL, poliestireno expandido, espumas, entre
+                      otros.
                     </p>
                   </div>
                 </div>

@@ -12,7 +12,8 @@
           "min-height: auto",
           "-webkit-text-size-adjust",
           "-webkit-tap-highlight-color",
-          "scrollbar-width"
+          "scrollbar-width",
+          "-moz-user-select"
         ]
       }
     ]

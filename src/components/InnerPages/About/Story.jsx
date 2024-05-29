@@ -64,7 +64,7 @@ function Story() {
             {loadSwiper && (
               <Swiper
                 {...swiperOptions}
-                className="swiper-container parallax-slider" 
+                className="swiper-container parallax-slider"
               >
                 {data.map((item) => (
                   <SwiperSlide key={item.id}>
@@ -85,13 +85,13 @@ function Story() {
           <div className="col-lg-8">
             <div className="cont mt-80">
               <h4>
-                Somos una empresa que nace del amor en familia, del calor de
-                hogar, asi nos motivo esta idea de emprender y que ahora gracias
-                a nuestro profesionalismo, esfuerzo y pasión es que nuestros
-                clientes cada dia depositan su confianza en nosotros. Nos hemos
-                ido afianzando mejor en el mercado, y lo mas satisfactorio es
-                ver a nuestros clientes agradecidos de haber recibido un
-                producto de calidad y una atención y preocupación unica.{" "}
+                Partimos el año 2018 en una pequeña oficina de la hermosa ciudad
+                jardín. Muchos sueños e ideas nos motivaron a iniciar este
+                tremendo proyecto que sin duda esta siendo una gran aventura. En
+                la actualidad esos sueños han cambiado, la creatividad es aun
+                mas poderosa y es gracias a esto y mucho mas que hemos
+                acompañado gloriosamente a cientos de clientes con PUBLICIDAD,
+                para iniciarse e implementarse en el mercado comercial{" "}
               </h4>
             </div>
           </div>

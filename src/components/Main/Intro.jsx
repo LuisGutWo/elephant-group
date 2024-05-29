@@ -20,7 +20,7 @@ function Intro({ lightMode }) {
                     <text>
                       <textPath xlinkHref="#textcircle" textLength="900">
                         {" "}
-                        Publicidad - Diseño - Impresión{" "}
+                        Cortes CNC - Diseño - Impresión{" "}
                       </textPath>
                     </text>
                   </svg>
@@ -42,8 +42,8 @@ function Intro({ lightMode }) {
               <h2 className="d-slideup wow">
                 <span className="sideup-text">
                   <span className="up-text">
-                    Somos una agencia evocada en el area de la comunicación y
-                    marketing
+                    Somos una empresa que crea y produce implementos
+                    PUBLICITARIOS.
                   </span>
                 </span>
               </h2>
@@ -51,9 +51,10 @@ function Intro({ lightMode }) {
                 <div className="col-lg-12">
                   <div className="text mt-20">
                     <p>
-                      Lo que mejor nos describe es que nos caracterizamos por
-                      ser un guía en el camino del cliente para desarrollar una
-                      imagen personalizada y de calidad.
+                      Nos basamos en una combinación de servicios para lograr el
+                      proyecto que tienes en mente. Asesoramos a nuestros
+                      clientes durante todo el proceso, logrando así este
+                      trabajo personalizado que requiere tu marca.
                     </p>
                   </div>
                   <div className="underline">

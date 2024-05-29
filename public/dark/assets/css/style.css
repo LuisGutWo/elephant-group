@@ -5392,12 +5392,12 @@ body.loaded {
   content: "";
   width: 80vw;
   height: 80vw;
-  border: 200px solid #f8f9fa;
+  border: 200px solid #a4a4a4;
   border-radius: 50%;
   position: absolute;
   top: -15vw;
   right: -30vw;
-  opacity: 0.01;
+  opacity: 0.02;
   pointer-events: none;
 }
 

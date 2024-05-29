@@ -18,12 +18,10 @@ function Header({ data, subBg }) {
           <div className="col-lg-5 offset-lg-4">
             <div className="text mt-30">
               <p>
-                Ayudamos a nuestros clientes a tener éxito mediante la creación
-                de sus propias marcas, experiencias digitales y materiales
-                impresos que se comuniquen con claridad. Nuestro principal
-                objetivo es ser su asesor publicitario y apoyarlos en todos los
-                procesos del proyecto para obtener el mejor resultado en su
-                campaña publicitaria y generan confianza en su marca.
+                Nos basamos en una combinación de servicios para lograr el
+                proyecto que tienes en mente. Asesoramos a nuestros clientes
+                durante todo el proceso, logrando así este trabajo personalizado
+                que requiere tu marca.
               </p>
             </div>
           </div>

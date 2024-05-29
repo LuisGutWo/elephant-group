@@ -1,29 +1,30 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 //= Packages
-import Head from 'next/head';
+import Head from "next/head";
 //= Layout
-import Layout from '@/layouts/default';
+import Layout from "@/layouts/default";
 //= Components
-import Loader from '@/components/Common/Loader';
-import Navbar from '@/components/Common/MainNavbar';
-import Header from '@/components/InnerPages/Header';
-import Story from '@/components/InnerPages/About/Story';
-import Services from '@/components/InnerPages/About/Services';
-import Intro from '@/components/InnerPages/About/Intro';
-import CallToAction from '@/components/Main/Contact';
-import Footer from '@/components/Main/Footer';
+import Loader from "@/components/Common/Loader";
+import Navbar from "@/components/Common/MainNavbar";
+import Header from "@/components/InnerPages/Header";
+import Story from "@/components/InnerPages/About/Story";
+import Services from "@/components/InnerPages/About/Services";
+import Intro from "@/components/InnerPages/About/Intro";
+import CallToAction from "@/components/Main/Contact";
+import Footer from "@/components/Main/Footer";
 
 function PageAboutLight() {
   useEffect(() => {
-    document.body.classList.add('main-bg');
-    return () => document.body.classList.remove('main-bg');
+    document.body.classList.add("main-bg");
+    return () => document.body.classList.remove("main-bg");
   }, []);
 
   const headerMetadata = {
     subTitle: "QUIENES SOMOS ?",
-    title: "Somos Elephant Group, una agencia de publicidad y marketing establecida en Viña del Mar, Chile.",
-    text: "Nosotros"
-  }
+    title:
+      "Somos Elephant Group, una empresa que crea y produce implementos PUBLICITARIOS.",
+    text: "Nosotros",
+  };
 
   return (
     <>
@@ -42,9 +43,9 @@ function PageAboutLight() {
       </main>
       <Footer lightMode />
     </>
-  )
+  );
 }
 
-PageAboutLight.getLayout = page => <Layout lightMode>{page}</Layout>
+PageAboutLight.getLayout = (page) => <Layout lightMode>{page}</Layout>;
 
 export default PageAboutLight;

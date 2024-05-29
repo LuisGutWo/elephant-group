@@ -5459,7 +5459,7 @@ body.loaded {
   position: absolute;
   top: -15vw;
   right: -30vw;
-  opacity: 0.01;
+  opacity: 0.02;
   pointer-events: none;
 }
 
