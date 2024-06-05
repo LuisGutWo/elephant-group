@@ -7666,11 +7666,6 @@ header.full-height {
   padding: 100px 0 80px;
 }
 
-header .full-height {
-  min-height: 100vh;
-  padding: 100px 0 80px;
-}
-
 header.in-box {
   min-height: calc(100vh - 80px);
   padding: 0;
@@ -7849,7 +7844,7 @@ header.in-box {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 80vh;
+  min-height: 100vh;
   padding: 80px 0;
 }
 
